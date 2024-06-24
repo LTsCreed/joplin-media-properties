@@ -1,0 +1,1 @@
+# joplin-media-properties
