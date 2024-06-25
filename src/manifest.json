@@ -1,0 +1,22 @@
+{
+	"manifest_version": 1,
+	"id": "plugin.ltscreed.joplin-media-properties",
+	"app_min_version": "2.13",
+	"version": "1.0.0",
+	"name": "Joplin media properties",
+	"description": "Collection of Joplin features that improve quality of lif",
+	"author": "LTsCreed",
+	"homepage_url": "https://github.com/LTsCreed/joplin-media-properties",
+	"repository_url": "https://github.com/LTsCreed/joplin-media-properties",
+	"keywords": ["joplin", "joplin-plugin", "media", "video", "resize"],
+	"categories": [],
+	"screenshots": [
+		{
+			"src": "images/video_src_attachment.png",
+			"label": "An example of attachment as video source"
+		}
+	],
+	"icons": {}
+}
+
+
