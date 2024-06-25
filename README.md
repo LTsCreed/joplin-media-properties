@@ -8,6 +8,10 @@ Collection of Joplin features that improve quality of life.
 
 Allows the use of attachments as a source in HTML \<video\> tags
 
+```HTML
+<video title="You Spin Me Round" src=":/e26f174b3cbc4503bccd94d93fd2dc53" width="50%" controls="controls"></video>
+```
+
 ![video src attachment](./images/video_src_attachment.png)
 
 ## Setup
