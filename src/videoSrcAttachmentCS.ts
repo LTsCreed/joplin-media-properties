@@ -19,24 +19,8 @@ function renderVideoHtml(before, src, after, contentScriptId, pluginOptions) {
     const resourcePath = resources?.[resourceId]
     if (!resourcePath) return;
 
-    return `<video${before}src="${resourcePath}"${after}>`
+    return `<video${before}src="file://${resourcePath}"${after}>`
 
-    /**
-     * Does not work with tinymce
-     */
-    // const postMessageWithResponse = `
-    //     if (this.hasAttribute('data-loaded')) return;
-    //     this.setAttribute('data-loaded', true);
-    //     const el = this;
-
-    //     webviewApi.postMessage('${contentScriptId}', { type: 'getResource', value: '${resourceId}'}).then(function(response) {
-    //         if (!response) return;
-    //         el.src = response.path;
-    //     });
-    //     return;
-    // `;
-
-    // return `<video${before}src="${src}"${after} onloadstart="${postMessageWithResponse.replace(/\n/g, ' ')}">`
 }
 
 export default (context: { contentScriptId: string, postMessage: any } ) => {
@@ -62,7 +46,6 @@ export default (context: { contentScriptId: string, postMessage: any } ) => {
                 });
             }
             
-
         },
     };
 };

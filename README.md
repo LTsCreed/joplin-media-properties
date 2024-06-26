@@ -1,4 +1,4 @@
-# Joplin plugin media properties
+# Joplin media properties plugin
 
 Collection of Joplin features that improve quality of life.
 
@@ -18,7 +18,7 @@ Allows the use of attachments as a source in HTML \<video\> tags
 
 1. Download the plugin release.
 
-2. Navigate to Help > Open profile direcotry.
+2. Navigate to Help > Open profile directory.
 
 3. Extract the downloaded file and place it inside the plugins folder.
 
